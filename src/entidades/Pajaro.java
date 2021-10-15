@@ -25,7 +25,7 @@ public class Pajaro extends Animal{
 
     @Override
     public String toString() {
-        return "Pajaro{" + "color=" + color + '}';
+        return "Pajaro{" + "color=" + color + super.toString()+'}';
     }
     
 }
